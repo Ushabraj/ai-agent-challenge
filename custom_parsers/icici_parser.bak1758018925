@@ -1,0 +1,6 @@
+import pandas as pd
+
+def parse(file_path: str) -> pd.DataFrame:
+    # Example parser: reads CSV directly
+    df = pd.read_csv(file_path)
+    return df
